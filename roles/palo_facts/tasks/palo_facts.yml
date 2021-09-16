@@ -2,7 +2,7 @@
 - name: Show all
   paloaltonetworks.panos.panos_facts:
     provider: '{{ provider }}'
-    gather_subset: ['all']
+    gather_subset: ['!config']
   register: all
   
 - name: Show All
