@@ -9,7 +9,7 @@ ansible-navigator:
   execution-environment:
     enabled: true
     container-engine: podman
-    image: ghcr.io/mysidlabs/paloalto.panos-ee:latest
+    image: ghcr.io/mysidlabs/sid-paloalto-ee:latest
     pull-policy: missing
 
   logging:
