@@ -4,7 +4,7 @@ ansible-navigator:
 
   ansible:
     inventories:
-      - inventory
+      - hosts
 
   execution-environment:
     enabled: true
