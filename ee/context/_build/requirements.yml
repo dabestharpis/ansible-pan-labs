@@ -1,4 +1,4 @@
 ---
 collections:
   - name: paloaltonetworks.panos
-    version: '*'
+    version: '2.7.0'
